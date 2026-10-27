@@ -1,0 +1,29 @@
+# Secrets and signing keys
+*.jks
+*.keystore
+keystore.properties
+secrets.properties
+.env
+.env.*
+local.properties
+
+# Android build output
+.gradle/
+build/
+**/build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# IDE files
+.idea/
+*.iml
+
+# Logs
+*.log
+
+# Private credentials
+credentials.json
+client_secret*.json
+# Generated APK files
+*.apk
